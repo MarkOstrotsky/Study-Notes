@@ -1,15 +1,16 @@
 ﻿using System;
 using TestProject.ExercisesOfTheSecondChapter;
+using TestProject.ExercisesOfTheFirstChapter;
 using TestProject.Sandbox;
 
 namespace TestProject
 {
-    public enum Color
-    {
-        Red,
-        Green,
-        Blue
-    }
+    //public enum Color
+    //{
+    //    Red,
+    //    Green,
+    //    Blue
+    //}
     class Program
     {
         static void Main()
