@@ -11,11 +11,14 @@ namespace TestProject
     //    Green,
     //    Blue
     //}
+
     class Program
     {
         static void Main()
         {
-            Console.WriteLine(GetColorNameWrongWay(Color.Blue));   
+            Console.WriteLine(GetColorNameWrongWay(Color.Blue));
+            Console.WriteLine(ConditionalOperators.ReturnResultArithmeticPperations("Addition", 2, 2));
+            ConditionalOperators.DetermineWeather(19);
         }
 
         static string GetColorNameWrongWay(Color color)
